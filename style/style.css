@@ -366,12 +366,15 @@ color: var(--primary-text-color)
     gap: 24px;
     justify-content: center;
     align-items: center;
+   
 }
 
 .customers-item-svg {
-    
+
 }
+.customers-list-svg {
     
+}  
 
 /* =========LIST-BUTTONS=========== */
 
