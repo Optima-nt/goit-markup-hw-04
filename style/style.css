@@ -318,20 +318,24 @@ color: var(--primary-text-color)
     text-transform: capitalize;
     color:var(--primary-text-color);
 }
-.team-item-svg {
-    width: 40px;
-    height: 40px;
-    fill: F4F4FD;
+
+
+.team-link-svg {
     background: var(--accent-color);
     border-radius: 50%;
-    
-
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
 }
 .team-list-svg {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
+    margin-top: 8px;
+   
     
 }
 .team-list {
@@ -366,15 +370,27 @@ color: var(--primary-text-color)
     gap: 24px;
     justify-content: center;
     align-items: center;
+    margin-top: 72px;
    
+}
+.customers-link {
+    
 }
 
 .customers-item-svg {
-
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    fill: currentColor;
+}
+.customers-link:focus,
+.customers-link:hover {
+    border-color: #4D5AE5;
+    color: #4D5AE5;
 }
 .customers-list-svg {
-    
+   
 }  
+
 
 /* =========LIST-BUTTONS=========== */
 
