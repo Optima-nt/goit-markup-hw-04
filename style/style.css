@@ -378,6 +378,8 @@ color: var(--primary-text-color)
 }
 
 .customers-item-svg {
+    width: 104px;
+    height: 56px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
     fill: currentColor;
@@ -388,6 +390,8 @@ color: var(--primary-text-color)
     color: #4D5AE5;
 }
 .customers-list-svg {
+    width: 168px;
+    height: 88px;
    
 }  
 
