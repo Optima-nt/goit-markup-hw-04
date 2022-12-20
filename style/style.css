@@ -214,8 +214,10 @@ color: var(--primary-text-color)
     background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7) , rgba(46, 47, 66, 0.7)),url(../image/people-office\ 1.jpg);
     background-size: cover;
     background-position: center;
-    min-width: 1440px;
+    max-width: 1440px;
     height: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* =========BENEFITS========= */
 
@@ -506,12 +508,16 @@ color: var(--primary-text-color)
 /* ==============FOOTER=============== */
 
 .footer {
+    padding-top: 100px;
     background: #2E2F42;
 }
 .footer-page {
     display: flex;
     justify-content: ;
     align-items: flex-start;
+}
+.footer-page-text {
+    margin-right: 120px;
 }
 
 .footer-list {
