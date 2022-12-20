@@ -221,6 +221,7 @@ color: var(--primary-text-color)
 
 .benefits {
     background: #FFFFFF;
+    padding-bottom: 0;
 }
 
 .icon {
@@ -329,6 +330,14 @@ color: var(--primary-text-color)
     width: 40px;
     height: 40px;
 }
+
+.team-item-svg  {
+    fill: #FFFFFF;
+}
+.footer-link-svg:hover,
+.footer-link-svg:focus {
+    background-color: #31D0AA;
+}
 .team-list-svg {
     display: flex;
     justify-content: center;
@@ -374,28 +383,32 @@ color: var(--primary-text-color)
    
 }
 .customers-link {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100%;
+    fill: #8E8F99;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+}
+.customers-list-svg {
+    width: 168px;
+    height: 88px;
 }
 
 .customers-item-svg {
     width: 104px;
     height: 56px;
-    border: 1px solid #8E8F99;
+    
+}
+.customers-link:hover,
+.customers-link:focus   {
+    fill:#4D5AE5;
+    border: 1px solid #4D5AE5;
     border-radius: 4px;
-    fill: currentColor;
 }
-.customers-link:focus,
-.customers-link:hover {
-    border-color: #4D5AE5;
-    color: #4D5AE5;
-}
-.customers-list-svg {
-    width: 168px;
-    height: 88px;
-   
-}  
-
-
+    
 /* =========LIST-BUTTONS=========== */
 
 .list-buttons {
@@ -417,14 +430,7 @@ color: var(--primary-text-color)
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-.btn-list-all:hover,
-.btn-list-all:focus {
-    background-color: #FFFFFF;
-    color: #4D5AE5;
-}
-.btn-list-all:active {
-    color: var(--accent-color);
-}
+
 .menu-buttons-item:not(:last-child)  {
     margin-right: 24px;
 }
@@ -448,8 +454,9 @@ color: var(--primary-text-color)
 
 .btn-list:hover,
 .btn-list:focus {
-    background-color: #4D5AE5;
+    background-color: var(--accent-color);
     color: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .menu-buttons {
     display: flex;
@@ -464,7 +471,8 @@ color: var(--primary-text-color)
 
 /* ==========JOBS========== */
 
-.jobs {  
+.jobs-link  {
+    display: block;  
 }
 
 .jobs-list {
@@ -489,15 +497,59 @@ color: var(--primary-text-color)
     
 }   
 
+.jobs-link:hover,
+.jobs-link:focus{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 
 /* ==============FOOTER=============== */
 
 .footer {
     background: #2E2F42;
 }
+.footer-page {
+    display: flex;
+    justify-content: ;
+    align-items: flex-start;
+}
+
+.footer-list {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.footer-link-svg {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;   
+}
 
 .footer-text {
     color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
+.footer-text-social {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+
 }
 .logo-footer {
     display: block;
