@@ -189,6 +189,8 @@ color: var(--primary-text-color)
 .phone:focus {
     color: var(--accent-color);
 }
+/* =======HEADER======== */
+
 /* =========HERO=========== */
 
 
@@ -219,6 +221,8 @@ color: var(--primary-text-color)
     margin-left: auto;
     margin-right: auto;
 }
+/* =========HERO=========== */
+
 /* =========BENEFITS========= */
 
 .benefits {
@@ -268,7 +272,7 @@ color: var(--primary-text-color)
 .benefits-item {
 
 }
-
+/* =========BENEFITS========= */
 
 /* ==========SERVICES========== */
 .services {
@@ -302,6 +306,7 @@ color: var(--primary-text-color)
 .services-img {
     border: 1px solid #E7E9FC;
 }
+/* ==========SERVICES========== */
 
 /* ============TEAM============ */
 
@@ -374,8 +379,9 @@ color: var(--primary-text-color)
 .title-team {
     margin-bottom: 8px;
 }
+/* ============TEAM============ */
 
-/* =========customers============== */
+/* =========CUSTOMERS============== */
 .customers-list {
     display: flex;
     gap: 24px;
@@ -410,6 +416,7 @@ color: var(--primary-text-color)
     border: 1px solid #4D5AE5;
     border-radius: 4px;
 }
+/* =========CUSTOMERS============== */
     
 /* =========LIST-BUTTONS=========== */
 
@@ -470,6 +477,7 @@ color: var(--primary-text-color)
 .menu-buttons-item {
 
 }
+/* =========LIST-BUTTONS=========== */
 
 /* ==========JOBS========== */
 
@@ -503,6 +511,7 @@ color: var(--primary-text-color)
 .jobs-link:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+/* ==========JOBS========== */
 
 
 /* ==============FOOTER=============== */
@@ -598,3 +607,4 @@ color: var(--primary-text-color)
 .logo-part:focus {
     color: var(--accent-color);
 }
+/* ==============FOOTER=============== */
